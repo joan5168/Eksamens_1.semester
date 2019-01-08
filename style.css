@@ -1,0 +1,1200 @@
+ * {
+     box-sizing: border-box;
+ }
+
+ body {
+     margin: 0;
+     background-color: var(--color-beige);
+     background-repeat: no-repeat;
+ }
+
+ .hide {
+     transform: scale(0);
+ }
+
+ nav {
+     position: absolute;
+ }
+
+ header nav #menubar {
+     padding: 3vw;
+ }
+
+ #menubar {
+     display: flex;
+     display: inline-block;
+     letter-spacing: 0.5vw;
+     font-size: 5vw;
+     margin-left: 25vw;
+     font-size: 3vw;
+     position: fixed;
+ }
+
+
+ /*------------------------------------------
+Farve
+-------------------------------------------*/
+
+
+ :root {
+     --color-beige: antiquewhite;
+     --color-burgermenufarve: rgba(170, 74, 74, 0.74);
+     --color-boksfarve: rgba(212, 99, 119, 0.55);
+     --color-overskriftboks: rgba(188, 6, 68, 0.3);
+ }
+
+
+ /*------------------------------------------
+CV html
+-------------------------------------------*/
+
+
+ .container2 {
+     display: flex;
+     flex-wrap: wrap;
+     flex-direction: row;
+     align-items: flex-start;
+     display: inline-block;
+ }
+
+
+ .boks2_1 img {
+     display: block;
+     border-radius: 50%;
+     transform: rotate(20deg);
+     width: 20%;
+     margin: auto;
+ }
+
+
+ .boks2_2 {
+     margin: 4vw;
+     padding: 4vw;
+     background-color: var(--color-boksfarve);
+ }
+
+ .boks2_2,
+ ul {
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 1.7vw;
+     letter-spacing: 1px;
+     text-align: center;
+ }
+
+ /*------------------------------------------
+Uddannelse og erhvervserfaring
+-------------------------------------------*/
+
+ .container2_1 {
+     margin: 4vw;
+     display: flex;
+     justify-content: space-around;
+     align-items: stretch;
+ }
+
+
+ .boks2_3 {
+     width: 40vw;
+     padding: 3vw;
+     background-color: var(--color-boksfarve);
+ }
+
+ .boks2_4 {
+     width: 40vw;
+     padding: 3vw;
+     background-color: var(--color-boksfarve);
+ }
+
+
+
+ /*------------------------------------------
+Portofolio html - Webdesign
+-------------------------------------------*/
+
+ #container3 {
+     display: inline-block;
+     margin: auto;
+ }
+
+
+ #container3_1 {
+     margin: 15vw 11vw 5vw 15vw;
+
+ }
+
+
+ #container3 h5 {
+     font-size: 2.5vw;
+ }
+
+ #container3 h5:hover {
+     /*     color: var(--color-overskriftboks);*/
+     color: #e22767;
+ }
+
+
+ .boks3_1 {
+     display: flex;
+     margin: auto;
+ }
+
+
+ .boks3_1_1 {
+     margin: 5vw 2vw 3vw 0.6vw;
+     height: 30vw;
+ }
+
+
+ .boks3_1_1_1 {
+     margin: 3.5vw 1vw 3vw 0.6vw;
+     height: 30vw;
+ }
+
+ /*------------------------------------------
+Portofolio html - Video
+-------------------------------------------*/
+
+
+ #container3_2 {
+     display: block;
+ }
+
+
+ #boks3_2_2 {
+     margin: 15vw 11vw 5vw 15vw;
+ }
+
+ .biledeboks1 img {
+     width: 15%;
+     padding: 3vw;
+ }
+
+
+ .boks3_2_2_2 {
+     display: flex;
+     align-content: center;
+ }
+
+
+ .boks3_2_2_2_2 img {
+     width: 190%;
+     margin-left: 7vw;
+
+ }
+
+ .boks3_2_2_2_2_2 img {
+     width: 80%;
+     margin-left: 7vw;
+ }
+
+
+ /*------------------------------------------
+Portofolio html - Animation
+-------------------------------------------*/
+
+ #container3_3 {
+     display: block;
+
+ }
+
+ #container3_3_3 {
+     margin: 7vw 11vw 5vw 15vw;
+
+ }
+
+ .billedeboks2 img {
+     width: 75%;
+     margin: 8vw 8vw 5vw 10vw;
+     position: relative;
+ }
+
+
+ #billedeboks3 {
+     background-image: url(billeder/play_trekant.svg);
+     background-size: 100%;
+     width: 5vw;
+     height: 7.5vw;
+     position: absolute;
+     top: 223vw;
+     left: 58.2vw;
+ }
+
+ .pulse {
+     animation-name: pulse_kf;
+     animation-duration: 0.8s;
+     animation-iteration-count: infinite;
+     animation-direction: alternate;
+     animation-timing-function: ease-in;
+ }
+
+ @keyframes pulse_kf {
+     0% {
+         transform: scale(0.70);
+     }
+
+     100% {
+         transform: scale(0.90);
+     }
+ }
+
+ /*------------------------------------------
+Portofolio html - UX
+-------------------------------------------*/
+
+ #container3_4 {
+     display: block;
+
+ }
+
+ #container3_4_4 {
+     margin: 10vw 11vw 5vw 15vw;
+ }
+
+ .billedeboks3 img {
+     width: 100%;
+     padding-top: 3vw;
+     margin: auto;
+ }
+
+ /*------------------------------------------
+Webdesign html - moodboard
+-------------------------------------------*/
+
+ .container4 {
+     text-align: center;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: var(--color-beige);
+     background-color: var(--color-overskriftboks);
+     padding: 1.5vw;
+     margin: 11vw;
+     margin-bottom: 0.01vw;
+ }
+
+
+ .boks4 h5 {
+     text-align: center;
+     font-size: 1.7vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: var(--color-beige);
+     background-color: var(--color-boksfarve);
+     padding: 1.5vw;
+     margin: 2vw;
+ }
+
+
+ .moodboard {
+     display: flex;
+     justify-content: space-between;
+     margin-left: 6.9vw;
+     padding: 4vw;
+ }
+
+ .moodboard img {
+     width: 75%;
+ }
+
+
+ /*------------------------------------------
+Webdesign.html - prcoss
+-------------------------------------------*/
+
+ #container4_2 {
+     display: flex;
+     margin: 11vw;
+     margin-top: 0vw;
+     justify-content: space-between;
+ }
+
+ .boks4_2 {
+     text-align: left;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: black;
+     padding: 2vw;
+     width: 50%;
+ }
+
+ .boks4_4 {
+     padding: 2vw;
+ }
+
+ .titelboks {
+     text-align: center;
+     font-size: 1.7vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: var(--color-beige);
+     width: 266%;
+     margin-left: -2.3vw;
+ }
+
+
+ .boks4_2 h6 {
+     color: var(--color-boksfarve);
+     font-size: 1.3vw;
+     margin-top: 2vw;
+     margin-bottom: 2vw;
+ }
+
+ /*------------------------------------------
+Webdesign.html - billede (splash, styletile og favicon)
+-------------------------------------------*/
+ .boks4_2_2 {
+     text-align: left;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: black;
+     margin: 6vw;
+     width: 50%;
+
+ }
+
+ .boks4_2_2_2 img {
+     width: 90%;
+     margin: 5vw;
+     margin-bottom: 2vw;
+ }
+
+
+ .boks4_2_2_2_2 img {
+     width: 90%;
+     margin-left: 5vw;
+ }
+
+ .boks4_2_2_2_2_2 img {
+     width: 50%;
+     margin: 2vw;
+     margin-left: 10vw;
+ }
+
+ /*------------------------------------------
+Webdesign.html - billeder af programmer
+-------------------------------------------*/
+ .boks4_22 img {
+     width: 20%;
+     margin-left: 70vw;
+     margin-top: 5vw;
+
+ }
+
+ /*------------------------------------------
+Webdesign.html - splash hover
+-------------------------------------------*/
+
+ .boks4_2_2_2 {
+     position: relative;
+ }
+
+ .billede {
+     display: block;
+ }
+
+ .overlag {
+     position: absolute;
+     bottom: 0;
+     background: rgb(0, 0, 0);
+     background: rgba(0, 0, 0, 0.5);
+     transition: .5s ease;
+     opacity: 0;
+     color: white;
+     font-size: 20px;
+     margin-left: 7vw;
+     text-align: center;
+ }
+
+ .boks4_2_2_2:hover .overlag {
+     opacity: 1;
+ }
+
+
+ /*------------------------------------------
+Webdesign.html - styletile hover
+-------------------------------------------*/
+
+ .boks4_2_2_2_2 {
+     position: relative;
+ }
+
+ .billede {
+     display: block;
+ }
+
+ .overlag {
+     position: absolute;
+     bottom: 0;
+     background: rgb(0, 0, 0);
+     background: rgba(0, 0, 0, 0.5);
+     transition: .5s ease;
+     opacity: 0;
+     color: white;
+     font-size: 20px;
+     text-align: center;
+ }
+
+ .boks4_2_2_2_2:hover .overlag {
+     opacity: 1;
+ }
+
+ /*------------------------------------------
+Webdesign.html - reflektioner
+-------------------------------------------*/
+ #boks4__2 {
+     text-align: center;
+     font-size: 1.5vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: var(--color-beige);
+     background-color: var(--color-overskriftboks);
+     padding: 1.5vw;
+     margin: 11vw;
+     margin-top: 0.01vw;
+ }
+
+
+
+ /*------------------------------------------
+Webdesign.html - link til stilestyle
+-------------------------------------------*/
+
+
+ #linkboks1 {
+     margin-bottom: 10vw;
+
+ }
+
+ .linkboks1 a {
+     margin: 40vw;
+     padding: 1vw;
+     border: 2px solid var(--color-overskriftboks);
+     border-radius: 15px;
+ }
+
+ .linkboks1 a:hover {
+     background-color: var(--color-overskriftboks);
+ }
+
+ /*------------------------------------------
+video.html - kort om tema
+-------------------------------------------*/
+
+
+ .container5 {
+     text-align: center;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: var(--color-beige);
+     background-color: var(--color-overskriftboks);
+     padding: 1.5vw;
+     margin: 11vw;
+     margin-bottom: 0.01vw;
+ }
+
+
+ .boks5 h5 {
+     text-align: center;
+     font-size: 1.7vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: var(--color-beige);
+     background-color: var(--color-boksfarve);
+     padding: 1.5vw;
+     margin: 2vw;
+ }
+
+
+ .boks5_5 {
+     padding: 2vw;
+ }
+
+ /*------------------------------------------
+video.html - de to videoer
+-------------------------------------------*/
+
+ .boks5_5_5 {
+     display: flex;
+     justify-content: space-between;
+     padding: 1vw;
+     margin: 10vw;
+     margin-top: 10vw;
+     margin-bottom: 0vw;
+ }
+
+ .boks5_5_5_5 video {
+     width: 35vw;
+ }
+
+
+ .boks5_5_5_5_5 video {
+     width: 35vw;
+ }
+
+ .overskriftboks {
+     display: flex;
+     justify-content: space-between;
+     padding: 1vw;
+     margin: 11vw;
+     margin-top: 0vw;
+ }
+
+ .boks55 h7 {
+     margin-left: 12.5vw;
+     text-decoration: none;
+     color: var(--color-burgermenufarve);
+     font-size: 1.5vw;
+     font-family: 'Work Sans';
+     margin-top: -2vw;
+ }
+
+ .boks555 h7 {
+     margin-right: 7vw;
+     text-decoration: none;
+     color: var(--color-burgermenufarve);
+     font-size: 1.5vw;
+     font-family: 'Work Sans';
+     margin-top: 0vw;
+ }
+
+
+ /*------------------------------------------
+Video.html - process - pre produktion inden filme
+-------------------------------------------*/
+ #container5_1 {
+     display: flex;
+     margin: 11vw;
+     margin-top: 0vw;
+     justify-content: space-between;
+     text-align: center;
+     margin-bottom: 1vw;
+ }
+
+ .boks5_1 {
+     text-align: left;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: black;
+     padding: 2vw;
+     width: 50%;
+ }
+
+
+ .boks5_2 {
+     text-align: left;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: black;
+     padding: 2vw;
+     width: 50%;
+ }
+
+ .titelboks1 h5 {
+     margin: 11vw;
+     margin-bottom: 0vw;
+     margin-top: 0vw;
+ }
+
+ #container5_1 h6 {
+     color: var(--color-boksfarve);
+     font-size: 1.3vw;
+     margin-top: 2vw;
+     margin-bottom: 2vw;
+ }
+
+
+ /*------------------------------------------
+Video.html - reflektion
+-------------------------------------------*/
+
+
+ #boks5__2 {
+     text-align: center;
+     font-size: 1.5vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: var(--color-beige);
+     background-color: var(--color-overskriftboks);
+     padding: 1.5vw;
+     margin: 11vw;
+     margin-top: 0.01vw;
+ }
+
+
+ /*------------------------------------------
+Video.html - billeder interviewspørgsmål og storyboard
+-------------------------------------------*/
+
+
+
+ #billedeboks {
+     display: flex;
+     margin: 20vw;
+     margin-top: 1vw;
+     align-content: center;
+     margin-bottom: 0vw;
+ }
+
+ .billedeboks5 img {
+     width: 80%;
+
+ }
+
+
+ .billedeboks55 img {
+     width: 80%;
+     margin-left: 5vw;
+
+ }
+
+
+ /*------------------------------------------
+Video.html - process af redesign
+-------------------------------------------*/
+
+ .boks5_2_2_2 {
+     margin-top: 2vw;
+ }
+
+ #container5_2 h6 {
+     color: var(--color-boksfarve);
+     font-size: 1.3vw;
+     margin-top: 2vw;
+     margin-bottom: 2vw;
+ }
+
+ /*------------------------------------------
+Video.html - process af redesign
+-------------------------------------------*/
+ #container5_2 {
+     display: flex;
+     margin: 11vw;
+     margin-top: 0vw;
+     justify-content: space-between;
+     margin-bottom: 2vw;
+ }
+
+ .boks5_2_2 {
+     text-align: left;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: black;
+     padding: 2vw;
+     width: 50%;
+ }
+
+
+ .boks5_2_2_2 {
+     text-align: left;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: black;
+     padding: 2vw;
+     width: 50%;
+ }
+
+ .titelboks2 h5 {
+     margin: 11vw;
+     margin-bottom: 0vw;
+     margin-top: 0vw;
+ }
+
+
+ /*------------------------------------------
+video.html - Guys and dolls billeder
+-------------------------------------------*/
+
+ .billedeboks55 {
+     margin-left: 6vw;
+     margin-bottom: 9vw;
+ }
+
+
+
+ /*------------------------------------------
+video.html - link - guys and dolls
+-------------------------------------------*/
+ #linkcontainer {
+     display: flex;
+     justify-content: center;
+ }
+
+
+ #linkboks2 {
+     margin: 6vw;
+ }
+
+ .linkboks2 a {
+     margin: 0vw;
+     padding: 1vw;
+     border: 2px solid var(--color-overskriftboks);
+     border-radius: 15px;
+ }
+
+ .linkboks2 a:hover {
+     background-color: var(--color-overskriftboks);
+ }
+
+
+ /*------------------------------------------
+video.html - link - Dokumenationssite
+-------------------------------------------*/
+
+ #linkboks3 {
+     margin: 6vw;
+
+ }
+
+ .linkboks3 a {
+     margin: 0vw;
+     padding: 1vw;
+     border: 2px solid var(--color-overskriftboks);
+     border-radius: 15px;
+ }
+
+ .linkboks3 a:hover {
+     background-color: var(--color-overskriftboks);
+ }
+
+
+
+ /*------------------------------------------
+video.html - programmer
+-------------------------------------------*/
+ .boks5_22 img {
+     width: 20%;
+     margin-left: 70vw;
+     margin-top: 5vw;
+
+ }
+
+
+
+ /*------------------------------------------
+Animation.html - kort om tema
+-------------------------------------------*/
+
+
+ .container6 {
+     text-align: center;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: var(--color-beige);
+     background-color: var(--color-overskriftboks);
+     padding: 1.5vw;
+     margin: 11vw;
+     margin-bottom: 0.01vw;
+ }
+
+
+ .boks6_1 h6 {
+     color: var(--color-boksfarve);
+     font-size: 1.3vw;
+     margin-top: 2vw;
+     margin-bottom: 2vw;
+ }
+
+
+
+
+
+ /*------------------------------------------
+Animation.html - process
+-------------------------------------------*/
+
+ .titelboks3 {
+     text-align: center;
+     font-size: 1.7vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: var(--color-beige);
+     margin: 11vw;
+     margin-bottom: 0vw;
+     letter-spacing: 2vw;
+ }
+
+
+
+ .boks6_1 {
+     text-align: left;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: black;
+     padding: 2vw;
+     width: 80%;
+     margin: 10vw;
+     margin-top: 0vw;
+     margin-bottom: 2vw;
+ }
+
+ .boks6_1 img {
+     width: 90%;
+     margin-left: 3.5vw;
+     margin: 2vw;
+ }
+
+
+ /*------------------------------------------
+Animation.html - process TEKST
+-------------------------------------------*/
+
+ #container6_2 {
+     display: flex;
+     margin: 11vw;
+     margin-top: 0vw;
+     justify-content: space-between;
+ }
+
+ #container6_2_2 {
+     /*     display: flex;*/
+     margin: 11vw;
+     margin-top: 0vw;
+     margin-bottom: 3vw;
+     justify-content: space-between;
+ }
+
+ #container6_2_2 img {
+     /*     display: flex;*/
+     margin: 3vw;
+     width: 90%;
+ }
+
+ #container6_2_2 h6 {
+     color: var(--color-boksfarve);
+     font-size: 1.3vw;
+     margin-top: 2vw;
+     margin-bottom: 2vw;
+ }
+
+
+
+ .boks6_2 {
+     text-align: left;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: black;
+     padding: 2vw;
+     width: 50%;
+
+ }
+
+ .boks6_2 h6 {
+     color: var(--color-boksfarve);
+     font-size: 1.3vw;
+     margin-top: 4vw;
+     margin-bottom: 2vw;
+ }
+
+ /*------------------------------------------
+Animation.html - process BILLEDER
+-------------------------------------------*/
+
+
+ .boks6_2_2_2 img {
+     width: 100%;
+     margin: 3vw;
+     margin-bottom: 2vw;
+ }
+
+
+ .boks6_2_2_2_2 img {
+     width: 90%;
+     margin-left: 5vw;
+ }
+
+ .boks6_2_2_2_2_2 img {
+     width: 65%;
+     margin: 1vw;
+     margin-left: 8vw;
+ }
+
+
+
+
+
+ /*------------------------------------------
+Animation.html - sex og samfund
+-------------------------------------------*/
+
+
+ .titelboks4 {
+     margin: 11vw;
+     margin-top: 2vw;
+     margin-bottom: 1vw;
+ }
+
+
+ #container6_2 {
+     margin: 11vw;
+     margin-top: 1vw;
+     justify-content: space-between;
+     margin-bottom: 2vw;
+ }
+
+ .boks6_2_2 {
+     text-align: left;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: black;
+     padding: 2vw;
+     width: 100%;
+ }
+
+ .boks6_2_2_2 img {
+     width: 100%
+ }
+
+ .boks6_2_2_2 {
+     text-align: left;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: black;
+     padding: 2vw;
+     width: 100%;
+ }
+
+
+ /*------------------------------------------
+Animation.html - link til dokumentationssite
+-------------------------------------------*/
+
+ #linkboks4 {
+     margin: 5vw;
+     margin-left: 37vw;
+     border-radius: 15px;
+     margin-bottom: 20vw;
+ }
+
+
+ .linkboks4 a {
+     padding: 1vw;
+     border: 2px solid var(--color-overskriftboks);
+     border-radius: 15px;
+ }
+
+ .linkboks4 a:hover {
+     background-color: var(--color-overskriftboks);
+ }
+
+
+
+ /*------------------------------------------
+
+UX.html - Kort om tema
+-------------------------------------------*/
+
+ .container7 {
+     text-align: center;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: var(--color-beige);
+     background-color: var(--color-overskriftboks);
+     padding: 1.5vw;
+     margin: 11vw;
+     margin-bottom: 0.01vw;
+ }
+
+
+ .boks7_1 h6 {
+     color: var(--color-boksfarve);
+     font-size: 1.3vw;
+     margin-top: 2vw;
+     margin-bottom: 2vw;
+ }
+
+
+
+ /*------------------------------------------
+
+ux.html - web prototype
+-------------------------------------------*/
+
+
+
+ #ark1 {
+     margin: 11vw;
+     border: 0.5px solid rgba(0, 0, 0, 0.16);
+     box-shadow: 5px 10px rgba(0, 0, 0, 0.19);
+     padding: 2vw;
+     background-color: floralwhite;
+ }
+
+
+
+ .boks7_2 {
+     text-align: left;
+     font-size: 1.3vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: black;
+     padding: 2vw;
+     width: 100%;
+
+ }
+
+ .boks7_2 h6 {
+     color: var(--color-boksfarve);
+     font-size: 1.3vw;
+     margin-top: 4vw;
+     margin-bottom: 2vw;
+ }
+
+
+ .boks7_2 img {
+     width: 90%;
+     margin-left: 4vw;
+ }
+
+
+ /*------------------------------------------
+Font og overskrift
+-------------------------------------------*/
+
+ h1 {
+     font-family: 'Work Sans', sans-serif;
+     font-size: 6vw;
+     text-align: center;
+     margin: 0vw;
+     padding: 24vw;
+ }
+
+ h2 {
+     font-family: 'Work Sans', sans-serif;
+     font-size: 5vw;
+     text-align: center;
+     padding: 1vw;
+ }
+
+
+ h3 {
+     font-family: 'Source Sans Pro', sans-serif;
+     font-size: 1.5vw;
+     letter-spacing: 1px;
+     text-align: center;
+ }
+
+
+ boks2_3,
+ h5 {
+     text-align: center;
+     font-size: 1.9vw;
+     font-family: 'Source Sans Pro', sans-serif;
+     color: var(--color-beige);
+     background-color: var(--color-overskriftboks);
+     padding: 1.5vw;
+     margin: 0vw;
+ }
+
+ section {
+     letter-spacing: 2.5px;
+ }
+
+ /*------------------------------------------
+Burger menu
+-------------------------------------------*/
+
+ /*fjerne punkterne i menu linje*/
+ #menu {
+     list-style-type: none;
+     transition: transform 1s;
+     transform-origin: top left;
+     margin: auto;
+     top: 6vw;
+     position: fixed;
+     font-size: 1.4vw;
+     padding: 2.2vw;
+ }
+
+ #menuknap {
+     display: inline-block;
+     padding: 2vw;
+     font-size: 3vw;
+     position: fixed;
+ }
+
+
+ /*------------------------------------------
+Design
+-------------------------------------------*/
+ li {
+     font-family: 'Source Sans Pro', sans-serif;
+     text-align: left;
+     letter-spacing: 2px;
+ }
+
+ a:hover {
+     color: #e22767;
+     text-decoration: none;
+ }
+
+ .menubar a {
+     color: #e22767;
+     text-decoration: none;
+ }
+
+ a {
+     text-decoration: none;
+     color: var(--color-burgermenufarve);
+     font-size: 2vw;
+     font-family: 'Work Sans';
+ }
+
+
+ /*------------------------------------------
+Billeder
+-------------------------------------------*/
+
+ .fyn img {
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     width: 30%;
+ }
+
+ .boks3_1_1 img {
+     width: 94%;
+ }
+
+ .boks3_1_1_1 img {
+     width: 105%;
+ }
+
+
+ /*------------------------------------------
+media screen
+-------------------------------------------*/
+
+ /*------------------CV--------------------*/
+ @media only screen and (max-width: 478px) {
+     .container2_1 .boks2_3 {
+         font-size: 2.4vw;
+     }
+ }
+
+ @media only screen and (max-width: 478px) {
+     .boks2_4 {
+         font-size: 2.4vw;
+     }
+ }
+
+
+ /*------------Animation playknap----------*/
+ @media only screen and (max-width: 1250px) {
+
+     #container3_3_3 #billedeboks3 {
+         top: 227vw;
+     }
+
+
+     @media only screen and (max-width: 1349px) {
+
+         header nav #menubar {
+             list-style-type: none;
+             transition: transform 1s;
+             transform-origin: top left;
+             margin-left: 87vw;
+             top: 9.5vw;
+             position: fixed;
+             padding: 4vw;
+             display: inline-block;
+         }
+
+         #container3 a {
+             text-decoration: none;
+             color: var(--color-burgermenufarve);
+             font-size: 1.2vw;
+             font-family: 'Work Sans';
+         }
+     }

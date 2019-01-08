@@ -1250,45 +1250,45 @@ media screen
 -------------------------------------------*/
 
 
+ /*------------------CV--------------------*/
+
+ @media only screen and (max-width: 1349px) {
+
+     header nav #menubar {
+         list-style-type: none;
+         transition: transform 1s;
+         transform-origin: top left;
+         margin-left: 86vw;
+         top: 9.5vw;
+         position: fixed;
+         padding: 4vw;
+         display: inline-block;
+
+     }
+
+     #container3 a {
+         text-decoration: none;
+         color: var(--color-burgermenufarve);
+         font-size: 1.2vw;
+         font-family: 'Work Sans';
+     }
+ }
+
+ @media only screen and (max-width: 478px) {
+     .container2_1 .boks2_3 {
+         font-size: 2.4vw;
+     }
+ }
+
+ @media only screen and (max-width: 478px) {
+     .boks2_4 {
+         font-size: 2.4vw;
+     }
+ }
 
  /*------------Animation playknap----------*/
  @media only screen and (max-width: 1250px) {
 
      #container3_3_3 #billedeboks3 {
          top: 227vw;
-     }
-
-
-     @media only screen and (max-width: 1349px) {
-
-         header nav #menubar {
-             list-style-type: none;
-             transition: transform 1s;
-             transform-origin: top left;
-             margin-left: 87vw;
-             top: 9.5vw;
-             position: fixed;
-             padding: 4vw;
-             display: inline-block;
-         }
-
-         #container3 a {
-             text-decoration: none;
-             color: var(--color-burgermenufarve);
-             font-size: 1.2vw;
-             font-family: 'Work Sans';
-         }
-     }
-
-     /*------------------CV--------------------*/
-     @media only screen and (max-width: 478px) {
-         .container2_1 .boks2_3 {
-             font-size: 2.4vw;
-         }
-     }
-
-     @media only screen and (max-width: 478px) {
-         .boks2_4 {
-             font-size: 2.4vw;
-         }
      }

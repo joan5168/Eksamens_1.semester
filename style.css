@@ -999,6 +999,34 @@ UX.html - Kort om tema
 
  /*------------------------------------------
 
+ux.html - brugertest videoer
+-------------------------------------------*/
+
+ .boks7_7_7 {
+     display: flex;
+     justify-content: space-between;
+     padding: 1vw;
+     margin: 10vw;
+     margin-top: 10vw;
+     margin-bottom: 0vw;
+
+ }
+
+ .boks7_7_7_7 video {
+     width: 20vw;
+
+ }
+
+ .boks7_7_7_7_7 video {
+     width: 20vw;
+ }
+
+ .boks7_7_7_7_7_7 video {
+     width: 20vw;
+ }
+
+ /*------------------------------------------
+
 ux.html - web prototype
 -------------------------------------------*/
 
@@ -1036,6 +1064,7 @@ ux.html - web prototype
      width: 90%;
      margin-left: 4vw;
  }
+
 
 
  /*------------------------------------------

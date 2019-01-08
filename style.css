@@ -128,8 +128,7 @@ Portofolio html - Webdesign
  }
 
  #container3 h5:hover {
-     /*     color: var(--color-overskriftboks);*/
-     color: #e22767;
+     color: black;
  }
 
 
@@ -1065,6 +1064,71 @@ ux.html - web prototype
      margin-left: 4vw;
  }
 
+ /*------------------------------------------
+
+ux.html -  design sprint link
+-------------------------------------------*/
+
+
+
+ #linkcontainer7 {
+
+     margin: 5vw;
+
+ }
+
+ #linkboks77 a {
+     margin-left: 33.5vw;
+     padding: 1vw;
+     border: 2px solid var(--color-overskriftboks);
+     border-radius: 15px;
+ }
+
+ #linkboks77 a:hover {
+     background-color: var(--color-overskriftboks);
+ }
+
+ /*------------------------------------------
+
+ux.html -  web prototype link
+-------------------------------------------*/
+
+
+
+ #linkcontainer8 {
+
+     margin: 5vw;
+
+ }
+
+ #linkboks8 a {
+     margin-left: 33.5vw;
+     padding: 1vw;
+     border: 2px solid var(--color-overskriftboks);
+     border-radius: 15px;
+ }
+
+ #linkboks8 a:hover {
+     background-color: var(--color-overskriftboks);
+ }
+
+
+
+
+
+
+ /*------------------------------------------
+
+ux.html -  ARK 2  - native app
+-------------------------------------------*/
+
+ #ark2 {
+     margin: 11vw;
+     border: 0.5px solid rgba(0, 0, 0, 0.16);
+     box-shadow: 5px 10px rgba(0, 0, 0, 0.19);
+     padding: 2vw;
+     background-color: floralwhite;
+ }
 
 
  /*------------------------------------------
@@ -1185,18 +1249,6 @@ Billeder
 media screen
 -------------------------------------------*/
 
- /*------------------CV--------------------*/
- @media only screen and (max-width: 478px) {
-     .container2_1 .boks2_3 {
-         font-size: 2.4vw;
-     }
- }
-
- @media only screen and (max-width: 478px) {
-     .boks2_4 {
-         font-size: 2.4vw;
-     }
- }
 
 
  /*------------Animation playknap----------*/
@@ -1225,5 +1277,18 @@ media screen
              color: var(--color-burgermenufarve);
              font-size: 1.2vw;
              font-family: 'Work Sans';
+         }
+     }
+
+     /*------------------CV--------------------*/
+     @media only screen and (max-width: 478px) {
+         .container2_1 .boks2_3 {
+             font-size: 2.4vw;
+         }
+     }
+
+     @media only screen and (max-width: 478px) {
+         .boks2_4 {
+             font-size: 2.4vw;
          }
      }
